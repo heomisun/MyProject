@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js functions</title>
+	<link rel="stylesheet" href="css/content.css">
+
+<style>
+
+</style>
+</head>
+<body>
+<h1>JavaScript&nbsp;functions</h1>
+<p>JavsScript 함수는 특정 작업을 수행하도록 설계된 코드 블록입니다. <br>JavaScript 함수는 "무언가"가 호출 (호출)할때 실행됩니다. </p>
+<hr class="line">
+<h2>배열을 문자열로 변환</h2>
+<p>JavaScript 메소드는 <b>toString()</b>은 배열을 쉼표로 구분 된 배열 값의 문자열로 변환합니다.</p>
+<div class="tutorials">
+	<div class="tutorials-content">
+		<p class="tutorials-title">ex</p>
+	 	<div class="tutorials-code">
+	 		function myFunction(p1, p2)  // The Function returns the product of p1<br>
+
+	 	</div>
+	 </div>
+	 <p class="tutorials-title">결과</p>
+	 <div class="tutorials-code">
+	 	Banana,Orange, Apple, Mango
+	 </div>
+	 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_functions">직접해보기</a>
+</div>
+<hr class="line">
+<h2>JavaScript 함수 구문</h2>
+<p>JavaScript 함수는 <b>funtion()</b> 키워드와 함께 <b>이름</b> 뒤에 괄호 <b>()가 </b>옵니다. <br> 함수 이름에는 문자, 숫자, 밑줄 및 달러 기호 (변수와 동일한 규칙)가 포함될 수 있습니다. <br> 괄호는 매개 변수 이름을 쉼표로 구분하여 포함 할 수 있습니다. <br>(parameter1, parmeter2,...).	<br> 함수에 의해 실생될 코드는 중괄호 안에 위치합니다. <b>{}</b></p>
+<div class="tutorials">
+	<div class="tutorials-content">
+	 	<div class="tutorials-code">function name (parameter1, parmeter2, parameter3){ <br>
+	 		code to te executed <br>
+	 	}</div>
+	 </div>
+</div>
+<p>함수 <b>매개 변수</b>는 함수 정의에서 괄호 () 안에 나열됩니다. <br> 함수 <b>인수</b>는 함수 호출시에 수신된 <b>값</b> 입니다. <br> 함수 내에서 인수 (매개 변수)는 로컬 변수로 작동합니다.</p>
+
+<div class="note">함수는 다른 프로그래밍 언어에서 프로 시저 또는 서브 루틴과 거의 동일 합니다.</div>
+<hr class="line">
+<h2>함수 호출</h2>
+<p>함수 내의 코드는 "무언가" 가 함수를 <b>호출</b> 할때 실행 됩니다.</p>
+<ul>
+	<li>이벤트가 발생할 때 (사용자가 버튼을 클릭 할때)</li>
+	<li>JavaScript코드 에서 호출 (호출) 될때</li>
+	<li>자동 (자체 호출)</li>
+</ul>
+<p>이 튜토리얼의 뒷부분에서 함수 호출에 대해 더 많이 배우 것이다.</p>
+
+<hr class="line">
+<h2>함수 반환</h2>
+<p>JavaScript가 <b>return()문에 </b>도달 하면 함수의 실행이 중지됩니다. <br>함수가 명령문에서 호출 된 경우 JavaScript는 후출 문 다음에 코드를 실행하기 위해 "return"합니다. <br> 함수는 종종 <b>반환 값</b>을 계산 합니다. 반환 값은 "호출자" 에게 "반환" 됩니다.</p>
+<div class="tutorials">
+	<div class="tutorials-content">
+		<p class="tutorials-title">ex</p>
+		<p class="tutorials-comment">두 숫자의 곱을 계산하고 결과를 반환합니다.</p>
+	 	<div class="tutorials-code">
+	 		var x = myFunction(4,3) // Function is called, return value will end up in x<br>
+	 		function myFunction(a, b); <br><br>
+	 		&nbsp;&nbsp; return a * b; // Function returns the product of a and b <br>
+	 		}	</div>
+	 	<p class="tutorials-title">x의 결과는 다음과 같습니다.</p>
+	 	<div class="tutorials-code">12</div>
+	 </div>
+	 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return" target="_blank" class="btn-link">직접해보기</a>
+</div>
+<hr class="line">
+<h2>Why Function?</h2>
+<p>코드를 재사용 할 수 있습니다: 코드를 한 번 정의하고 여러 번 사용하십시오. <br> 서로 다른 인수를 사용하여 동일한 코드를 여러 번 사용하여 다른 결과를 얻을 수 있습니다.</p>
+<div class="tutorials">
+	<div class="tutorials-content">
+		<div class="tutorials-title"></div>
+		<p class="tutorials-comment">화씨를 섭씨로 변환:</p>
+	 	<div class="tutorials-code">
+	 		function toCelsius(fahreheit){
+	 		&nbsp;return (5/9) * (fahrenheit-32); <br>
+	 	}
+	 	document.getElementById("demo").innerHTML = toCelsius(77);</div>
+	 	<p class="tutorials-title">x의 결과는 다음과 같습니다.</p>
+	 	<div class="tutorials-code">12</div>
+	 </div>
+	 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return" target="_blank" class="btn-link">직접해보기</a>
+	</div>
+</div>
+</body>
+</html>
